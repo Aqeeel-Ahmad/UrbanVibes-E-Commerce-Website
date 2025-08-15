@@ -980,7 +980,7 @@ marquee {
 
 }
 
-        /* Contact Page CSS */
+/* Contact Page CSS */
 
 #cp-header.about-header {
     background-image: url(images/about/banner.png);
@@ -1048,7 +1048,7 @@ marquee {
 #contact-details .map iframe {
     width: 100%;
     height: 100%;
-    
+
 }
 
 #form-details {
@@ -1059,7 +1059,7 @@ marquee {
     border: 1px solid lightgray;
 }
 
-#form-details form  {
+#form-details form {
     width: 65%;
     display: flex;
     flex-direction: column;
@@ -1248,8 +1248,12 @@ marquee {
     /* Contact Details  */
 
     #form-details {
-    padding: 40px;
-}
+        padding: 40px;
+    }
+
+    #form-details form {
+        width: 50%;
+    }
 
 }
 
@@ -1380,6 +1384,30 @@ marquee {
     #about-app .video {
         width: 100%;
     }
+
+    /* contact page */
+
+    #contact-details {
+        flex-direction: column;
+    }
+
+    #contact-details .details {
+        width: 100%;
+        /* margin: 30px; */
+    }
+
+    #contact-details .map {
+        width: 100%;
+    }
+
+    #form-details {
+    flex-direction: column;
+}
+
+#form-details form {
+    width: 100%;
+    margin-bottom: 30px;
+}
 
 }
 
