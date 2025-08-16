@@ -963,6 +963,7 @@ marquee {
     padding-left: 40px;
 }
 
+<<<<<<< HEAD
 #about-app {
     text-align: center;
 }
@@ -981,6 +982,9 @@ marquee {
 }
 
 /* Contact Page CSS */
+=======
+/* contact page CSS */
+>>>>>>> ContactPageCreation
 
 #cp-header.about-header {
     background-image: url(images/about/banner.png);
@@ -994,15 +998,24 @@ marquee {
     padding: 14px;
 }
 
+<<<<<<< HEAD
 #contact-details {
     display: flex;
     justify-content: space-between;
     align-items: center;
+=======
+
+#contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+>>>>>>> ContactPageCreation
 }
 
 #contact-details .details {
     width: 40%;
 }
+<<<<<<< HEAD
 
 
 #contact-details .details span,
@@ -1120,6 +1133,8 @@ marquee {
 
 
 
+=======
+>>>>>>> ContactPageCreation
 
 /* =======> Media Query Starting */
 
