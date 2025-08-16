@@ -963,28 +963,7 @@ marquee {
     padding-left: 40px;
 }
 
-<<<<<<< HEAD
-#about-app {
-    text-align: center;
-}
-
-#about-app .video {
-    width: 70%;
-    height: 100%;
-    margin: 30px auto 0 auto;
-}
-
-#about-app .video video {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-
-}
-
-/* Contact Page CSS */
-=======
 /* contact page CSS */
->>>>>>> ContactPageCreation
 
 #cp-header.about-header {
     background-image: url(images/about/banner.png);
@@ -998,34 +977,23 @@ marquee {
     padding: 14px;
 }
 
-<<<<<<< HEAD
-#contact-details {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-=======
 
 #contact-details {
     display: flex;
     align-items: center;
     justify-content: space-between;
->>>>>>> ContactPageCreation
 }
 
 #contact-details .details {
     width: 40%;
 }
-<<<<<<< HEAD
-
 
 #contact-details .details span,
-#form-details form span {
+#contact-details form span {
     font-size: 12px;
 }
 
-
-#contact-details .details h2,
-#form-details form h2 {
+#contact-details .details h2 {
     font-size: 26px;
     line-height: 35px;
     padding: 20px 0;
@@ -1055,13 +1023,11 @@ marquee {
 #contact-details .map {
     width: 55%;
     height: 400px;
-
 }
 
 #contact-details .map iframe {
     width: 100%;
     height: 100%;
-
 }
 
 #form-details {
@@ -1069,7 +1035,7 @@ marquee {
     justify-content: space-between;
     margin: 30px;
     padding: 80px;
-    border: 1px solid lightgray;
+    border: 1px solid lightgrey;
 }
 
 #form-details form {
@@ -1085,7 +1051,7 @@ marquee {
     padding: 12px 15px;
     outline: none;
     margin-bottom: 20px;
-    border: 1px solid lightgray;
+    border: 1px solid lightgrey;
 }
 
 #form-details form textarea {
@@ -1106,8 +1072,6 @@ marquee {
     padding-bottom: 25px;
     display: flex;
     align-items: flex-start;
-
-
 }
 
 #form-details .people div img {
@@ -1133,8 +1097,7 @@ marquee {
 
 
 
-=======
->>>>>>> ContactPageCreation
+
 
 /* =======> Media Query Starting */
 
@@ -1260,7 +1223,7 @@ marquee {
         display: initial;
     }
 
-    /* Contact Details  */
+    /* contact page */
 
     #form-details {
         padding: 40px;
@@ -1318,6 +1281,7 @@ marquee {
 
     #sm-banner .banner-box {
         height: 40vh;
+        width: 250px;
     }
 
     #sm-banner .banner-box2 {
@@ -1381,25 +1345,6 @@ marquee {
         width: 100%;
     }
 
-    /* About Page */
-
-    #about-head {
-        flex-direction: column;
-    }
-
-    #about-head img {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    #about-head div {
-        padding-left: 0px;
-    }
-
-    #about-app .video {
-        width: 100%;
-    }
-
     /* contact page */
 
     #contact-details {
@@ -1408,7 +1353,7 @@ marquee {
 
     #contact-details .details {
         width: 100%;
-        /* margin: 30px; */
+        margin-bottom: 30px;
     }
 
     #contact-details .map {
@@ -1416,13 +1361,17 @@ marquee {
     }
 
     #form-details {
-    flex-direction: column;
-}
+        margin: 10px;
+        padding: 30px 10px;
+        flex-wrap: wrap;
+    }
 
-#form-details form {
-    width: 100%;
-    margin-bottom: 30px;
-}
+    #form-details form {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
 
 }
 
